@@ -71,7 +71,6 @@ function animateCounter(el, delay) {
     const startTime = performance.now();
     let lastTick = -1;
 
-    // Crear barra de progreso
     const bar = document.createElement('span');
     bar.className = 'impacto__bar';
     el.parentElement.appendChild(bar);
@@ -116,5 +115,3 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) { startCounters(); observer.disconnect(); } });
 }, { threshold: .3 });
 observer.observe(impactoSection);
-
-

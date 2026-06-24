@@ -141,16 +141,6 @@ ul { list-style: none; }
 .section--dark {
   background: var(--primary-dark);
 }
-.section--photo {
-  background-image: url('../img/soluciones-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  box-shadow: inset 0 0 0 1000px rgba(69, 83, 119, .78);
-}
-.section--photo .section__title,
-.section--photo .section__subtitle {
-  color: var(--white);
-}
 .section--nodes::before {
   content: '';
   position: absolute;
@@ -505,7 +495,7 @@ ul { list-style: none; }
   line-height: 1.1;
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity .6s ease, transform .6s ease, transform .1s ease;
+  transition: opacity .6s ease, transform .6s ease;
 }
 .impacto__number.visible {
   opacity: 1;

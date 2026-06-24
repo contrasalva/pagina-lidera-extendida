@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 800" width="180" height="800">
+  <g fill="none" stroke="#455377" stroke-width="1.5" opacity="0.12">
+    <circle cx="40" cy="80" r="6"/>
+    <circle cx="90" cy="150" r="4"/>
+    <circle cx="30" cy="220" r="5"/>
+    <circle cx="100" cy="300" r="3"/>
+    <circle cx="50" cy="380" r="6"/>
+    <circle cx="120" cy="450" r="4"/>
+    <circle cx="40" cy="520" r="5"/>
+    <circle cx="80" cy="600" r="3"/>
+    <circle cx="30" cy="680" r="6"/>
+    <circle cx="100" cy="750" r="4"/>
+    <line x1="40" y1="80" x2="90" y2="150"/>
+    <line x1="90" y1="150" x2="30" y2="220"/>
+    <line x1="30" y1="220" x2="100" y2="300"/>
+    <line x1="100" y1="300" x2="50" y2="380"/>
+    <line x1="50" y1="380" x2="120" y2="450"/>
+    <line x1="120" y1="450" x2="40" y2="520"/>
+    <line x1="40" y1="520" x2="80" y2="600"/>
+    <line x1="80" y1="600" x2="30" y2="680"/>
+    <line x1="30" y1="680" x2="100" y2="750"/>
+  </g>
+  <g fill="#D4A843" opacity="0.08">
+    <circle cx="60" cy="100" r="20"/>
+    <circle cx="110" cy="250" r="15"/>
+    <circle cx="70" cy="420" r="18"/>
+    <circle cx="90" cy="580" r="12"/>
+  </g>
+</svg>

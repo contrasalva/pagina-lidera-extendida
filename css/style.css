@@ -526,6 +526,31 @@ ul { list-style: none; }
   opacity: 1;
   transform: translateY(0);
 }
+.impacto__counter-row:has(.impacto__number.visible) + .impacto__label {
+  opacity: 1;
+  transform: translateY(0);
+}
+.impacto__counter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 4px;
+}
+.impacto__counter-suffix {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--highlight);
+  line-height: 1.1;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.impacto__number.visible + .impacto__counter-suffix {
+  opacity: 1;
+  transform: translateY(0);
+}
 .impacto__label--text {
   display: block;
   font-family: var(--font-heading);

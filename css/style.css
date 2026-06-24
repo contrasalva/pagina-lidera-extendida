@@ -539,7 +539,6 @@ ul { list-style: none; }
 }
 .impacto__item:nth-child(3) .impacto__number {
   display: inline-block;
-  font-size: 2.8rem;
 }
 .impacto__number.visible + .impacto__counter-suffix {
   opacity: 1;
